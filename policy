@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Decision Button</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0A0F;
+            color: #E8E6F0;
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #7C6AFF;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            font-size: 13px;
+            color: #8B8898;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #9D8FFF;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #C8C6D0;
+            font-size: 15px;
+        }
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #C8C6D0;
+            font-size: 15px;
+        }
+        a {
+            color: #7C6AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background: #141420;
+            border-left: 3px solid #7C6AFF;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 16px;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #2A2A3C;
+            font-size: 13px;
+            color: #5A5768;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Ultimo aggiornamento: febbraio 2026</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0"><strong>In breve:</strong> Decision Button non raccoglie, trasmette o condivide nessun dato personale. Tutti i tuoi dati restano salvati solo sul tuo dispositivo.</p>
+        </div>
+
+        <h2>1. Introduzione</h2>
+        <p>Questa Privacy Policy descrive come l'applicazione <strong>Decision Button</strong> ("l'App", "noi") gestisce le informazioni degli utenti. La tua privacy è importante per noi e ci impegniamo a proteggerla.</p>
+
+        <h2>2. Dati raccolti</h2>
+        <p>Decision Button <strong>non raccoglie alcun dato personale</strong>. Nello specifico:</p>
+        <ul>
+            <li>Non richiediamo registrazione o creazione di account.</li>
+            <li>Non raccogliamo nome, email, numero di telefono o altri dati identificativi.</li>
+            <li>Non tracciamo la tua posizione geografica.</li>
+            <li>Non accediamo ai tuoi contatti, messaggi o altri dati del telefono.</li>
+        </ul>
+
+        <h2>3. Dati memorizzati localmente</h2>
+        <p>L'App salva i seguenti dati <strong>esclusivamente sul tuo dispositivo</strong> (tramite AsyncStorage):</p>
+        <ul>
+            <li>Nome, prezzo, categoria e note degli articoli che inserisci.</li>
+            <li>Foto degli articoli (se scattate o selezionate dall'utente).</li>
+            <li>Date di creazione e scadenza dei timer.</li>
+            <li>Il tuo obiettivo di risparmio e le statistiche di utilizzo.</li>
+        </ul>
+        <p>Questi dati <strong>non vengono mai trasmessi</strong> a server esterni, né a noi né a terze parti. Vengono eliminati quando disinstalli l'App o cancelli i dati dell'applicazione.</p>
+
+        <h2>4. Fotocamera e galleria</h2>
+        <p>L'App può richiedere l'accesso alla fotocamera e alla galleria fotografica per consentirti di scattare o selezionare foto degli articoli. Le foto vengono salvate solo localmente nell'App e non vengono condivise o caricate su alcun server.</p>
+
+        <h2>5. Notifiche</h2>
+        <p>L'App utilizza notifiche locali per ricordarti la scadenza dei timer. Queste notifiche vengono programmate e gestite interamente sul tuo dispositivo, senza coinvolgere server esterni.</p>
+
+        <h2>6. Pubblicità</h2>
+        <p>L'App mostra annunci pubblicitari tramite <strong>Google AdMob</strong>. AdMob potrebbe raccogliere dati anonimi per personalizzare gli annunci, tra cui:</p>
+        <ul>
+            <li>Identificatore pubblicitario del dispositivo (Android Advertising ID).</li>
+            <li>Informazioni generiche sul dispositivo (modello, versione del sistema operativo).</li>
+            <li>Dati di interazione con gli annunci.</li>
+        </ul>
+        <p>Puoi disattivare la personalizzazione degli annunci nelle impostazioni del tuo dispositivo Android in <em>Impostazioni &gt; Google &gt; Annunci</em>. Per maggiori dettagli, consulta la <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a>.</p>
+
+        <h2>7. Servizi di terze parti</h2>
+        <p>L'App utilizza i seguenti servizi di terze parti:</p>
+        <ul>
+            <li><strong>Google AdMob</strong> — per la visualizzazione di annunci pubblicitari. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a>.</li>
+            <li><strong>Expo</strong> — framework di sviluppo. Il servizio di notifiche push di Expo potrebbe processare token del dispositivo. <a href="https://expo.dev/privacy" target="_blank">Privacy Policy di Expo</a>.</li>
+        </ul>
+
+        <h2>8. Sicurezza dei dati</h2>
+        <p>Poiché tutti i dati dell'utente sono salvati localmente sul dispositivo, la loro sicurezza dipende dalle misure di protezione del dispositivo stesso (PIN, impronta digitale, crittografia del dispositivo). Ti consigliamo di mantenere aggiornato il tuo dispositivo e di utilizzare un metodo di blocco schermo.</p>
+
+        <h2>9. Diritti dell'utente</h2>
+        <p>In qualsiasi momento puoi:</p>
+        <ul>
+            <li><strong>Cancellare i tuoi dati</strong> eliminando singoli articoli dall'App o cancellando i dati dell'applicazione dalle impostazioni del dispositivo.</li>
+            <li><strong>Revocare i permessi</strong> (fotocamera, notifiche) dalle impostazioni del dispositivo.</li>
+            <li><strong>Disinstallare l'App</strong>, il che rimuoverà tutti i dati salvati localmente.</li>
+        </ul>
+
+        <h2>10. Minori</h2>
+        <p>L'App non è rivolta a minori di 13 anni e non raccoglie consapevolmente dati da minori.</p>
+
+        <h2>11. Modifiche alla Privacy Policy</h2>
+        <p>Ci riserviamo il diritto di aggiornare questa Privacy Policy. Eventuali modifiche saranno pubblicate su questa pagina con la data di aggiornamento. Ti consigliamo di consultare periodicamente questa pagina.</p>
+
+        <h2>12. Contatti</h2>
+        <p>Per qualsiasi domanda relativa a questa Privacy Policy, puoi contattarci all'indirizzo email:</p>
+        <p><strong><a href="mailto:liliana.farnese@gmail.com">liliana.farnese@gmail.com</a></strong></p>
+
+        <div class="footer">
+            <p>© 2026 Decision Button. Tutti i diritti riservati.</p>
+        </div>
+    </div>
+</body>
+</html>
